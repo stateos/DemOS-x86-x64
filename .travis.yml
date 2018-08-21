@@ -1,0 +1,16 @@
+os: linux
+sudo: required
+language: generic
+
+install:
+  - sudo apt-get update -qq
+  - gcc --version
+
+before_script:
+  - wget https://github.com/stateos/DudOS/archive/master.zip
+  - unzip -q master.zip
+  - mv -T DudOS-master/DudOS/kernel/ DudOS/kernel/
+  - mv -T DudOS-master/DudOS/port/ DudOS/port/
+  - rm -r DudOS-master
+
+script: make all
