@@ -1,7 +1,7 @@
 #**********************************************************#
 #file     makefile
 #author   Rajmund Szymanski
-#date     21.08.2018
+#date     22.08.2018
 #brief    x86/x64 makefile.
 #**********************************************************#
 
@@ -164,7 +164,7 @@ print_size :
 	$(info Size of modules:)
 	$(SIZE) -B -t --common $(OBJS_ALL)
 
-print_exe_size : print_size
+print_exe_size : # print_size
 	$(info Size of target file:)
 	$(SIZE) -B $(EXE)
 
