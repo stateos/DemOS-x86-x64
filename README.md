@@ -1,4 +1,4 @@
-# DudOS [![Build Status](https://travis-ci.org/stateos/DudOS-x86-x64.svg)](https://travis-ci.org/stateos/DudOS-x86-x64)
+# DemOS [![Build Status](https://travis-ci.org/stateos/DemOS-x86-x64.svg)](https://travis-ci.org/stateos/DemOS-x86-x64)
 Free, simple, extremely lightweight, stackless, cooperative, quasi operating system (OS) designed for deeply embedded applications. TEMPLATE.
 
 Target

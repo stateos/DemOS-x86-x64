@@ -7,10 +7,10 @@ install:
   - gcc --version
 
 before_script:
-  - wget https://github.com/stateos/DudOS/archive/master.zip
+  - wget https://github.com/stateos/DemOS/archive/master.zip
   - unzip -q master.zip
-  - mv -T DudOS-master/DudOS/kernel/ DudOS/kernel/
-  - mv -T DudOS-master/DudOS/port/ DudOS/port/
-  - rm -r DudOS-master
+  - mv -T DemOS-master/DemOS/kernel/ DemOS/kernel/
+  - mv -T DemOS-master/DemOS/port/ DemOS/port/
+  - rm -r DemOS-master
 
 script: make all
