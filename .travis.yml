@@ -9,8 +9,7 @@ install:
 before_script:
   - wget https://github.com/stateos/DemOS/archive/master.zip
   - unzip -q master.zip
-  - mv -T DemOS-master/DemOS/kernel/ DemOS/kernel/
-  - mv -T DemOS-master/DemOS/port/ DemOS/port/
+  - mv DemOS-master/DemOS/* DemOS/
   - rm -r DemOS-master
 
 script: make all
