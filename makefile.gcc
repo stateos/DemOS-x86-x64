@@ -1,0 +1,16 @@
+PROJECT := test
+DEFS    :=
+INCS    :=
+SRCS    := src/main.cpp
+LIBS    :=
+COMMON  := common
+
+#----------------------------------------------------------#
+include $(COMMON)/demos/make/pc/makefile.gcc
+#----------------------------------------------------------#
+
+include $(COMMON)/demos/makefile
+
+#----------------------------------------------------------#
+include $(COMMON)/make/makefile
+#----------------------------------------------------------#
