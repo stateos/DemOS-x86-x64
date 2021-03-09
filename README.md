@@ -1,4 +1,5 @@
-# DemOS [![CI Status](https://github.com/stateos/DemOS-x86-x64/workflows/test.yml/badge.svg)](https://github.com/stateos/DemOS-x86-x64/workflows/test.yml)
+# DemOS
+[![CI Status](https://github.com/stateos/DemOS-x86-x64/actions/workflows/test.yml/badge.svg)](https://github.com/stateos/DemOS-x86-x64/actions/workflows/test.yml)
 Free, simple, extremely lightweight, stackless, cooperative, quasi operating system (OS) designed for deeply embedded applications. TEMPLATE.
 
 Target
