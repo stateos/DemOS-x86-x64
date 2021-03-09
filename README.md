@@ -1,4 +1,4 @@
-# DemOS [![Build Status](https://travis-ci.org/stateos/DemOS-x86-x64.svg)](https://travis-ci.org/stateos/DemOS-x86-x64)
+# DemOS [![CI Status](https://github.com/stateos/DemOS-x86-x64/workflows/test.yml/badge.svg)](https://github.com/stateos/DemOS-x86-x64/workflows/test.yml)
 Free, simple, extremely lightweight, stackless, cooperative, quasi operating system (OS) designed for deeply embedded applications. TEMPLATE.
 
 Target
