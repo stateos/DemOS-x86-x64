@@ -32,7 +32,7 @@ jobs:
         sudo apt-get -y -qq install cmake ninja-build build-essential
     - name: check gcc version
       run: gcc -v
-    - name: test
+    - name: make test
       run: |
         cmake -S. -Bbuild -GNinja
         ninja -v -Cbuild
