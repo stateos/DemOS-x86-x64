@@ -29,7 +29,7 @@ jobs:
     - name: install dependencies
       run: |
         sudo apt-get -y -qq update
-        sudo apt-get -y -qq install cmake ninja-build
+        sudo apt-get -y -qq install cmake ninja-build build-essential
     - name: check gcc version
       run: gcc -v
     - name: test
