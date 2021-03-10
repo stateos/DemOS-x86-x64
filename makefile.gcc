@@ -1,4 +1,5 @@
 PROJECT := test
+GCC     :=
 DEFS    :=
 INCS    :=
 SRCS    := src/main.cpp
