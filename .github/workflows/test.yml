@@ -5,14 +5,14 @@ name: CI
 on:
   push:
     branches:
-      - test
+      - main
     paths-ignore:
       - 'LICENSE'
       - 'README.md'
 
   pull_request:
     branches:
-      - test
+      - main
     paths-ignore:
       - 'LICENSE'
       - 'README.md'
