@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <os.h>
+#include "os.h"
 
 OS_SEM(sem, 0);
 
-OS_TSK_DEF(sla)
+OS_TSK_START(cons)
 {
 	tsk_begin();
 
@@ -13,7 +13,7 @@ OS_TSK_DEF(sla)
 	tsk_end();
 }
 
-OS_TSK_DEF(mas)
+OS_TSK_START(prod)
 {
 	tsk_begin();
 
@@ -25,7 +25,5 @@ OS_TSK_DEF(mas)
 
 int main()
 {
-	tsk_start(sla);
-	tsk_start(mas);
 	sys_start();
 }
