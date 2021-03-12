@@ -16,7 +16,7 @@ jobs:
     - name: install dependencies
       run: |
         sudo apt-get -y -qq update
-        sudo apt-get -y -qq install cmake ninja-build build-essential
+        sudo apt-get -y -qq install cmake ninja-build
     - name: check gcc version
       run: gcc -v
     - name: make test
