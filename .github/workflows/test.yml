@@ -12,7 +12,7 @@ jobs:
     - name: checkout repository
       uses: actions/checkout@v2
     - name: checkout common submodule
-      run: git submodule update --remote
+      run: git submodule update --init --remote
     - name: install dependencies
       run: |
         sudo apt-get -y -qq update
